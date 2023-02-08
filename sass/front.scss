@@ -1,0 +1,200 @@
+header{
+    background-color:white;
+}
+.dropdown:hover .dropdown-menu {
+    display: block; // remove the gap so it doesn't close
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.mycard{
+    &:hover{
+        transition: 1s;
+        box-shadow: 0 14px 14px #6fa8fd, 0 10px 10px #6fa8fd
+    }
+}
+.menu{
+    background-color: #fff;
+    border: 3px solid #f7faff;
+    font-size: 20px;
+    border-radius: 10px;
+    display:none;
+}
+@media (max-width:991px) {
+    .menu{
+        display: block;
+    }
+}
+.box{
+    .box1{
+        h1{
+            font-size: 3.5rem;
+            color: #1e2022;
+        }
+        p{
+            font-size: 1.3125rem;
+            color: #677788;
+        }
+    }
+    .box2{
+        button{
+            border: none;
+            border-radius: 3px;
+            background-color: #377dff;
+            color: #fff;
+            padding-right: 2.5rem!important;
+            padding-left: 2.5rem!important;
+            padding-top: 0.5rem;
+            padding-bottom: 0.7rem;
+            transition: 1s;
+        &:hover{
+        box-shadow: 0 14px 14px #6fa8fd, 0 10px 10px #6fa8fd
+    }
+        }
+        a{
+            text-decoration: none;
+            margin-left: 30px;
+        }
+    }
+    .box3{
+        background: url(https://htmlstream.com/preview/front-v4.3.1/assets/img/750x750/img2.jpg) no-repeat center;
+        background-size: cover;
+        height: 80vh;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+}
+@media (max-width:767px){
+    .box .box3{
+        display: none;
+    }
+}
+.systems{
+    p{
+        color: #8c98a4;
+        i{
+            color: #377dff;
+        }
+    }
+}
+.front{
+    .card{
+        border: none;
+        border-radius: 10px;
+        img{
+            border-radius: 10px;
+        }
+    }
+    .card-body{
+        p{
+            color: #677788;
+        }
+        a{
+            color: #677788;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}
+.mailchimp .img3{
+    img{
+        display: none;
+    }
+}
+@media (max-width:991px){
+    .mailchimp{
+        .img1{
+            display: none;
+        }
+        .img2{
+            width: 100%;
+        }
+        .img3 img{
+            display: block;
+        }
+    }
+}
+.discover{
+    .card{
+        border: none;
+        img{
+            border-radius: 10px;
+        }
+    }
+    .card-body{
+        p{
+            color: #677788;
+        }
+    }
+}
+.gohere{
+    button{
+        color: #677788;
+        border:1px solid #8c98a4;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border-radius: 50px;
+        background-color: #fff;
+    }
+}
+footer{
+    background-color: #f7faff;
+    width: 100%;
+    p{
+        color: #8c98a4;
+    }
+    .inputbox{
+        #lang{
+            height: 1.75rem;
+            background-color:rgba(113,134,157,.1) ;
+            border: none;
+            border-radius: 5px;
+            option{
+                background-color: #fff;
+                border: none;
+                color: #8c98a4;
+            }
+        }
+    }
+}
+.iconbox1{
+    font-size: .95rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color:rgba(113,134,157,.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbox2{
+    font-size: .95rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color:rgba(113,134,157,.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbox3{
+    font-size: .95rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color:rgba(113,134,157,.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbox4{
+    font-size: .95rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color:rgba(113,134,157,.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+const langdata ={
+    az :["Şirkət","Haqqında","Karyera","Bloq","Müştərilər","Bizi işə götürün","Xüsusiyyətləri","Mətbuat","Buraxılış qeydləri","İnteqrasiyalar","Qiymətləndirmə","Sənədləşmə","Dəstək","Sənədlər","Status","API Referansı","Texniki Tələblər","Resurslar","Dəstək","Hesabınız","Məxfilik və Siyasət / Şərtlər / Sayt xəritəsi","© Front. 2021 HTMLstream. Bütün hüquqlar qorunur.","Saytlarımızı, xidmətlərimizi və ya alətlərimizi ziyarət etdiyiniz və ya onlarla qarşılıqlı əlaqədə olduğunuz zaman, biz və ya səlahiyyətli xidmət təminatçılarımız sizə daha yaxşı, daha sürətli və təhlükəsiz təcrübə təqdim etmək və marketinq məqsədləri üçün məlumat saxlamaq üçün kukilərdən istifadə edə bilərik."],
+    en :["Company","About","Careers","Blog","Customers","Hire us","Features","Press","Release Notes","Integrations","Pricing","Documentation","Support","Docs","Status","API Reference","Tech Requirements","Resources","Help","Your Account","Privacy & Policy  /  Terms  /  Site Map","© Front. 2021 Htmlstream. All rights reserved.","When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes."]
+}
+
+export {langdata};

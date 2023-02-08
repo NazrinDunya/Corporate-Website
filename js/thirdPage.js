@@ -1,0 +1,5 @@
+const thirdPage={
+    az:["Daha çox kəşf edin","BLOGU OXUYUN","Mənalı təsir göstərin","Onları icra etməkdə yaxşı olduqlarını sübut edən Cəbhə fürsətləri.","BLOGU OXUYUN","Sənədlər","İstər startap, istərsə də qlobal müəssisə olmağınızdan asılı olmayaraq, Front ilə necə inteqrasiya olunacağını öyrənin.","DİGƏR HƏLL HAQQINDA ÖYRƏNİN","Parçalar alətini araşdırın","Tez Ön nümunə komponentləri, kodları kopyala-yapışdırın.","Daha çox oxumaq istəyirsiniz? Bura get"],
+    en:["Discover more","READ THE BLOG","Have a meaningful impact","Opportunities to Front who have proven to be good at executing on them.","READ THE BLOG","Documentation","Whether you're a startup or a global enterprise, learn how to integrate with Front.","LEARN ABOUT OTHER SOLUTIONS","Explore the Snippets tool","Quickly Front sample components, copy-paste codes.","Want to read more? Go here"]
+}
+export {thirdPage};
